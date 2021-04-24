@@ -12,3 +12,4 @@ jobs:
         SLACK_WEBHOOK: ${{ secrets.GITHUBSECRET }}
         SLACK_USERNAME: GitHub
         SLACK_TITLE: Push to sage
+        SLACK_ICON: https://drive.google.com/file/d/198B78va8npw8NLam-vwNBz-naDmF7Jar/view?usp=sharing
