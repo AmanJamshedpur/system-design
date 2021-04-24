@@ -11,4 +11,3 @@ jobs:
       env:
         SLACK_WEBHOOK: ${{ secrets.GITHUBSECRET }}
         SLACK_USERNAME: GitHub
-        SLACK_TITLE: Code changes pushed to sage repository
