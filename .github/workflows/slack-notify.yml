@@ -9,10 +9,6 @@ jobs:
     - name: Slack Notification
       uses: rtCamp/action-slack-notify@v2
       env:
-        SLACK_CHANNEL: github-notifications
-        SLACK_COLOR: ${{ job.status }}
-        SLACK_ICON: https://github.com/rtCamp.png?size=48
-        SLACK_MESSAGE: 'Post Content :rocket:'
-        SLACK_TITLE: Post Title
-        SLACK_USERNAME: rtCamp
-        SLACK_WEBHOOK: 'https://hooks.slack.com/services/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'
+        SLACK_USERNAME: GitHub
+        SLACK_TITLE: Code changes pushed to sage repository
+        SLACK_ICON: 'https://drive.google.com/file/d/198B78va8npw8NLam-vwNBz-naDmF7Jar/view?usp=sharing'
