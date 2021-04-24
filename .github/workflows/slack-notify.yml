@@ -1,5 +1,5 @@
 on: push
-name: GitHub Notification
+name: Slack Notification
 jobs:
   slackNotification:
     name: Slack Notification
@@ -12,4 +12,3 @@ jobs:
         SLACK_WEBHOOK: ${{ secrets.GITHUBSECRET }}
         SLACK_USERNAME: GitHub
         SLACK_TITLE: Code changes pushed to sage repository
-        SLACK_ICON: 'https://drive.google.com/file/d/198B78va8npw8NLam-vwNBz-naDmF7Jar/view?usp=sharing'
